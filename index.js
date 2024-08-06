@@ -165,7 +165,9 @@ app.put("movies/:id" , express.json() , function (request , response){
 
 // console.log(movies.id)
 
-const PORT = process.emv.PORT || 4000;
+const PORT = process.env.PORT || 4000;
+
+
 app.get("/", function (request, response) {
   response.send("🙋‍♂️, 🌏 🎊✨🤩");
 });
