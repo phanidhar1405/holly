@@ -1,0 +1,15 @@
+<div class="movie-container">
+<img src="{{movie.book_image}}" alt="{{ movie.title }}" class="movie-poster">
+  <div class="movie-content">
+    <div class="movie-spec">
+      <h2 class="movie-title">
+        {{ movie.title }}
+      </h2>
+      <p class="movie-author">📕 {{ movie.author }}</p>
+      <p>{{movie.category}}</p>
+      <br>
+      <p>{{movie.publication_date}}</p>
+    </div>
+    <p class="movie-summary">{{ movie.status}} 😁</p>
+  </div>
+</div>
